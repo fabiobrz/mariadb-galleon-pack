@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module name="org.mariadb.jdbc" xmlns="urn:jboss:module:1.8">
     <resources>
-        <artifact name="${org.mariadb.jdbc:mariadb-java-client}"/> 1
+        <artifact name="${org.mariadb.jdbc:mariadb-java-client}"/>
     </resources>
-    <dependencies> 2
+    <dependencies>
         <module name="javax.api"/>
         <module name="javax.transaction.api"/>
     </dependencies>
